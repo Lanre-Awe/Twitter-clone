@@ -1,0 +1,28 @@
+.main {
+  display: inline-block;
+  width: 48%;
+  margin-left: 15%;
+  background-color: black;
+  vertical-align: top;
+  border-left: 1px solid rgba(105, 105, 105, 0.5);
+  border-right: 1px solid rgba(105, 105, 105, 0.5);
+  box-sizing: border-box;
+  color: #1da1f2;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: 100%;
+    margin-left: 0%;
+    overflow-x: hidden;
+  }
+  .hide {
+    display: none;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  .main {
+    width: 68%;
+    margin-left: 28%;
+  }
+}

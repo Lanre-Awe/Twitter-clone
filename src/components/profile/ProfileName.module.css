@@ -1,0 +1,15 @@
+.container {
+  margin-top: 14%;
+  margin-left: 3%;
+}
+
+.name {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.username {
+  color: gray;
+  font-weight: lighter;
+}

@@ -1,0 +1,72 @@
+.navigation {
+  display: none;
+}
+
+.topContainer {
+  display: none;
+}
+.tweeticon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    bottom: 0;
+    position: fixed;
+  }
+  .navblocks {
+    margin: 0%;
+    width: 8%;
+    padding: 2% 3%;
+  }
+  .mainlogo {
+    margin: 0%;
+    width: 8%;
+    display: none;
+  }
+  .image {
+    display: block;
+  }
+  .tweeticon {
+    position: fixed;
+    display: block;
+    top: 83%;
+    left: 80%;
+    background: #1da1f2;
+    width: 10%;
+    padding: 12px;
+    border-radius: 50%;
+  }
+
+  .mainlogoPhone {
+    width: 8%;
+    display: block;
+    margin-left: 32%;
+  }
+  .topContainer {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    backdrop-filter: blur(6px);
+    align-items: center;
+    overflow-x: hidden;
+  }
+  .pfp {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 12px;
+  }
+  .iconPhone {
+    width: 25px;
+    height: 25px;
+    fill: #1da1f2;
+  }
+}

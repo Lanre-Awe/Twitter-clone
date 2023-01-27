@@ -1,0 +1,134 @@
+.block {
+  display: block;
+  border-radius: 15px;
+  padding: 4px 15px;
+  border: 1px solid white;
+  color: #1da1f2;
+  font-weight: bold;
+  background-color: inherit;
+  margin-bottom: 15px;
+}
+.block1 {
+  display: inline-block;
+  border-radius: 7px;
+  padding: 4px 1px;
+  border: none;
+  color: #1da1f2;
+  font-weight: bold;
+  background-color: inherit;
+  margin-bottom: 7px;
+  vertical-align: top;
+  margin-top: 3.5px;
+  margin-left: 5px;
+}
+.preview img {
+  width: 40%;
+  border-radius: 14px;
+  margin-left: 23%;
+}
+.components {
+  display: inline-block;
+  width: 85%;
+}
+.image {
+  display: inline-block;
+  vertical-align: top;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+}
+
+.text {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: inherit;
+  font-size: 1.2rem;
+  outline: none;
+  resize: none;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.tweetDiv {
+  width: 100%;
+  border-bottom: 1px solid rgba(78, 78, 78, 0.5);
+}
+
+.tweet {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: #1da1f2;
+  margin-top: 7px;
+}
+.iconContainer {
+  display: inline-block;
+}
+.iconContainer > input {
+  display: none;
+  cursor: pointer;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #1da1f2;
+  margin-top: 7px;
+}
+.icon2 {
+  width: 15px;
+  height: 15px;
+  fill: #1da1f2;
+  margin-top: 7px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pfp {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  margin: 10px;
+  margin-left: 12px;
+}
+.iconX {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+.imageCancel {
+  position: absolute;
+  background-color: rgb(62, 61, 61);
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin: 1%;
+  border-radius: 50%;
+  padding: 2px;
+  align-items: center;
+  cursor: pointer;
+  left: 31%;
+}
+
+.imageCancel:hover {
+  background-color: rgb(85, 83, 83);
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    display: none;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  .components {
+    width: 70%;
+    margin-left: 3%;
+  }
+}

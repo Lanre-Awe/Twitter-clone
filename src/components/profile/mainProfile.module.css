@@ -1,0 +1,209 @@
+.top {
+  height: 50px;
+  position: sticky;
+  top: 0;
+  /* background-color: #000000; */
+  backdrop-filter: blur(6px);
+}
+.main {
+  display: inline-block;
+  width: 48%;
+  margin-left: 15%;
+  background-color: black;
+  vertical-align: top;
+  border-left: 1px solid rgba(105, 105, 105, 0.5);
+  border-right: 1px solid rgba(105, 105, 105, 0.5);
+  box-sizing: border-box;
+  color: #1da1f2;
+}
+
+.back {
+  display: inline-block;
+  margin-left: 3%;
+  vertical-align: top;
+  margin-top: 2.5%;
+  padding-right: 1%;
+  padding-left: 0.5%;
+  border-radius: 50%;
+  padding-top: 0.5%;
+}
+.container {
+  display: inline-block;
+  margin-left: 6%;
+  margin-top: 1%;
+}
+
+.name {
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+}
+.interactions {
+  font-size: small;
+  color: grey;
+}
+
+.backicon {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+.back:hover {
+  background-color: rgb(41, 41, 41);
+  cursor: pointer;
+}
+
+.headercontainer {
+  position: relative;
+}
+
+.headerimage {
+  width: 100%;
+  /* height: 250px; */
+}
+
+.profileimage {
+  width: 48%;
+  border-radius: 50%;
+  border: 2.8px solid black;
+}
+.imgcontainer {
+  /* background-color: red; */
+  position: absolute;
+  width: 50%;
+  top: 60%;
+  left: 3%;
+  display: inline-block;
+}
+
+.actioncontainer {
+  display: inline-block;
+  width: fit-content;
+  height: 30%;
+  position: absolute;
+  top: 100%;
+  left: 67%;
+}
+
+.ellipsiscontainer {
+  background-color: inherit;
+  display: inline-block;
+  width: fit-content;
+  margin: 4px;
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 11px;
+  padding-top: 3px;
+  border: 1px solid grey;
+  vertical-align: top;
+}
+
+.ellipsis {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  margin: 1.4px;
+  border-radius: 50%;
+}
+.messagecontainer {
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 10px;
+  /* background-color: red; */
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 5px;
+  padding-top: 8px;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+
+.messageicon {
+  width: 20px;
+  height: 20px;
+}
+
+.followcontainer {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.followbutton {
+  padding: 11px 17px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.messagecontainer:hover {
+  cursor: pointer;
+}
+
+.followbutton:hover {
+  background-color: rgb(231, 227, 227);
+  transition: 0.2s ease;
+}
+
+.ellipsiscontainer:hover {
+  cursor: pointer;
+  background-color: rgb(35, 35, 35);
+  transition: 0.2s ease;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .followbutton {
+    padding: 9px 15px;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 20px;
+    border: 0.5px solid #5b5a5a;
+  }
+  .actioncontainer {
+    left: 50%;
+    display: flex;
+    width: 50%;
+  }
+  .ellipsiscontainer {
+    margin-top: 1%;
+    margin-left: 2%;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 6px;
+    padding-top: 1px;
+    border: 1px solid grey;
+    vertical-align: top;
+  }
+
+  .ellipsis {
+    background-color: white;
+    margin: 1.3px;
+  }
+  .messagecontainer {
+    margin-top: 1%;
+    margin-left: 2%;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+  }
+  .followcontainer {
+    margin-top: 2%;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 601px) and(max-width: 992px) {
+  .main {
+    width: 70%;
+    margin-left: 28%;
+  }
+}

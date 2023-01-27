@@ -1,0 +1,54 @@
+.container {
+  display: inline-block;
+}
+
+.name {
+  font-weight: bold;
+  color: white;
+  font-size: 1.1rem;
+  /* margin-right: 15%; */
+}
+
+.username {
+  color: gray;
+  font-size: 0.87rem;
+}
+
+.button {
+  padding: 8px 15px;
+  border-radius: 30px;
+  font-weight: bold;
+  border: none;
+}
+
+.divcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.heading {
+  font-weight: bold;
+  font-size: larger;
+  color: rgb(238, 232, 232);
+}
+.suggestions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .divcontainer {
+    width: 94%;
+  }
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1252px) {
+  .suggestions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

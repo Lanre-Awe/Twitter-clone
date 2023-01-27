@@ -1,0 +1,72 @@
+.navigation {
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  background-color: inherit;
+  vertical-align: top;
+  position: fixed;
+}
+.image {
+  display: none;
+}
+
+.navblocks {
+  margin-top: 10%;
+  margin-left: 70%;
+  padding: 2% 3%;
+  border-radius: 50%;
+  background-color: inherit;
+  margin-right: 10%;
+}
+
+.mainlogo {
+  margin-top: 5%;
+  margin-left: 70%;
+  background-color: inherit;
+  padding-left: 3%;
+  padding-top: 3%;
+  border-radius: 50%;
+  margin-right: 9%;
+}
+.mainlogoPhone {
+  display: none;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+
+.navblocks:hover {
+  background-color: rgb(48, 47, 47);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.tweeticon {
+  background-color: #1da1f2;
+  margin-top: 10%;
+  margin-left: 63%;
+  padding: 7% 8%;
+  margin-right: 6%;
+  border-radius: 50%;
+}
+
+.tweeticon:hover {
+  background-color: #1a8fd7;
+  cursor: pointer;
+  transition: 0.2 ease;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navigation {
+    width: 25%;
+  }
+}

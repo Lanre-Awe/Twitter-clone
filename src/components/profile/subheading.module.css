@@ -1,0 +1,45 @@
+.headingcontainer {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  margin-top: 13px;
+  border-bottom: 1px solid rgba(105, 105, 105, 0.5);
+}
+
+.link {
+  display: inline-block;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding: 10px 0;
+  text-decoration: none;
+  color: gray;
+  box-sizing: border-box;
+}
+
+.active .underline {
+  opacity: 1;
+  transition: 0.2s ease;
+}
+
+.underline {
+  margin-top: 13px;
+  width: inherit;
+  height: 4px;
+  background-color: #1da1f2;
+  border-radius: 4px;
+  opacity: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .link {
+    font-size: 14px;
+    margin-left: 3%;
+  }
+  .headingcontainer {
+    width: 100%;
+  }
+  .replyContainer {
+    width: 105px;
+  }
+}

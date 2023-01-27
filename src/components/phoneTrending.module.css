@@ -1,0 +1,19 @@
+.trending {
+  background-color: black;
+}
+.heading {
+  font-weight: bold;
+  font-size: larger;
+  color: rgb(238, 232, 232);
+}
+@media screen and (max-width: 600px) {
+  .trending {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) and(max-width: 992px) {
+  .hide {
+    display: none;
+  }
+}

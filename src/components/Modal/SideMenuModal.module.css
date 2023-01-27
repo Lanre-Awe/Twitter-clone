@@ -1,0 +1,88 @@
+.container {
+  position: fixed;
+  top: 0%;
+  width: 73%;
+  height: 100vh;
+  z-index: 100;
+  background-color: black;
+  animation: open 0.5s;
+}
+
+.heading {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+  font-weight: bold;
+  font-size: 17px;
+  align-items: center;
+}
+
+.pfpContainer {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.pfpContainer > img {
+  width: 20%;
+  border-radius: 50%;
+}
+.nameBlock {
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.name {
+  color: white;
+  font-size: large;
+}
+.username {
+  color: gray;
+}
+.follow {
+  margin-top: 5%;
+}
+
+.followers,
+.following {
+  color: white;
+  margin-left: 5%;
+}
+.followers > span,
+.following > span {
+  color: gray;
+  font-size: small;
+  margin-left: 1%;
+}
+.buttonContainer {
+  background-color: black;
+  border: none;
+}
+.icons {
+  width: 28px;
+  height: 30px;
+  fill: #fff;
+}
+
+.navBlock {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.navBlock a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a > span {
+  margin-left: 10%;
+  font-size: 22px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+@keyframes open {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

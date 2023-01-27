@@ -1,0 +1,166 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(63, 69, 81, 0.5);
+  overflow: hidden;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 5%;
+  left: 25%;
+  width: 48%;
+  z-index: 100;
+  background-color: black;
+  border-radius: 16px;
+}
+
+.imageContainer {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding: 2% 2% 0 3%;
+}
+.img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.nameContainer {
+  display: inline-block;
+}
+.name {
+  color: white;
+  font-weight: bold;
+}
+.username {
+  color: gray;
+  font-weight: lighter;
+  margin-left: 6%;
+}
+.icon {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+.replytag {
+  margin-left: 4%;
+  color: gray;
+}
+
+.replyUserName {
+  color: #1da1f2;
+  margin-left: 1%;
+}
+.tagContainer {
+  margin-left: 6.5%;
+  border-left: 1px solid gray;
+  padding: 2% 3% 2% 3%;
+  margin-bottom: 4%;
+}
+
+.iconButton {
+  background-color: inherit;
+  padding: 3% 1%;
+  margin-left: 2%;
+}
+
+.tweet {
+  color: white;
+}
+.container {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2%;
+}
+.text {
+  background-color: inherit;
+  margin-left: 13%;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  color: white;
+  resize: none;
+}
+.iconButton {
+  display: inline-block;
+}
+
+.icon2 {
+  width: 20px;
+  height: 20px;
+  fill: #1da1f2;
+  margin-left: 300%;
+  margin-top: 5%;
+}
+
+.replyButton {
+  display: inline-block;
+  margin-right: 4%;
+  padding: 0.8em 1.3em;
+  border-radius: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: #1da1f2;
+}
+
+.actions {
+  width: fit-content;
+  margin-left: 80%;
+  margin-bottom: 3%;
+}
+.replyButtonTop {
+  margin-right: 4%;
+  padding: 0.8em 1.3em;
+  border-radius: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: #1da1f2;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .modalContainer {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 0;
+  }
+  .replyButtonTop {
+    display: inline-block;
+    padding: 1em 1.8em;
+    border-radius: 20px;
+    border: none;
+  }
+
+  .topOption {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+  }
+  .iconButton {
+    border: none;
+  }
+
+  .replyButton {
+    display: none;
+  }
+  .username {
+    display: inline-block;
+    margin-left: 1%;
+  }
+  .name {
+    display: inline-block;
+  }
+  .nameContainer {
+    width: 100%;
+  }
+  .replyContainer {
+    background-color: red;
+  }
+}

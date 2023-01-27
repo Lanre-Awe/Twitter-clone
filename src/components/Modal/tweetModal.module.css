@@ -1,0 +1,146 @@
+.maincontainer {
+  position: fixed;
+  top: 5%;
+  left: 25%;
+  width: 48%;
+  z-index: 100;
+  background-color: black;
+  border-radius: 16px;
+}
+
+.iconX {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+
+.iconButton {
+  background-color: inherit;
+  padding: 3% 1%;
+  margin-left: 2%;
+}
+
+.block {
+  display: block;
+  border-radius: 15px;
+  padding: 4px 15px;
+  border: 1px solid white;
+  color: #1da1f2;
+  font-weight: bold;
+  background-color: inherit;
+  margin-bottom: 15px;
+}
+.block1 {
+  display: inline-block;
+  border-radius: 7px;
+  padding: 4px 1px;
+  border: none;
+  color: #1da1f2;
+  font-weight: bold;
+  background-color: inherit;
+  margin-bottom: 7px;
+  vertical-align: top;
+  margin-top: 3.5px;
+  margin-left: 5px;
+}
+
+.components {
+  display: inline-block;
+  width: 85%;
+}
+.image {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.text {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: inherit;
+  font-size: 1.2rem;
+  outline: none;
+  resize: none;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.components {
+  /* display: inline-block; */
+  margin-left: 13%;
+  width: 85%;
+}
+.tweetDiv {
+  width: 100%;
+  border-bottom: 1px solid rgba(78, 78, 78, 0.5);
+}
+
+.tweet {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: #1da1f2;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.iconContainer {
+  display: inline-block;
+}
+.iconContainer > input {
+  display: none;
+  cursor: pointer;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #1da1f2;
+  margin-top: 7px;
+}
+.icon2 {
+  width: 15px;
+  height: 15px;
+  fill: #1da1f2;
+  margin-top: 7px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pfp {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  margin: 10px;
+  margin-left: 12px;
+}
+
+.preview img {
+  width: 40%;
+  border-radius: 14px;
+  margin-left: 23%;
+}
+
+.imageCancel {
+  position: absolute;
+  background-color: rgb(62, 61, 61);
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin: 1%;
+  border-radius: 50%;
+  padding: 2px;
+  align-items: center;
+  cursor: pointer;
+  left: 33%;
+}
+
+.imageCancel:hover {
+  background-color: rgb(85, 83, 83);
+}

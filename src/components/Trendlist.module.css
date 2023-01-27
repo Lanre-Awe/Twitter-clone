@@ -1,0 +1,29 @@
+.dot {
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 3px;
+  border-radius: 50%;
+}
+
+.topic {
+  display: inline-block;
+  color: gray;
+  font-size: small;
+}
+
+.burger {
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.mainTopic {
+  font-weight: bold;
+  color: white;
+}
