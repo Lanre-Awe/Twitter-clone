@@ -193,8 +193,6 @@ const profileSlice = createSlice({
       profileState = tweet[0].like;
       console.log(profileState);
       profileState++;
-      // state.tweet[0].like++;
-      // tweet[0].like++;
     },
     onRetweet(state, action) {
       const tweet = state.profile[0].tweet;

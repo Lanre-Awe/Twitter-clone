@@ -1,7 +1,6 @@
 import { Fragment, useRef, useState } from "react";
 import ReactDOM from "react-dom";
 import { useDispatch } from "react-redux";
-import { profileAction } from "../../store/profileSlice";
 import Backdrop from "./Backdrop";
 import classes from "./EditModal.module.css";
 
